@@ -1,0 +1,16 @@
+{
+    "author_name": "Your name (or your organization/company/team)",
+    "project_name": "Data Project",
+    "repo_name": "{{ cookiecutter.project_name|title()|replace(' ','') }}",
+    "project_desc": "Project description",
+    "version": "0.0.1",
+    "open_source_license": ["MIT", "BSD-3-Clause", "No license file"],
+    "dependency_file": "requirements.txt",
+    "git_remote": "Git remote (if known)",
+    "start_date": "{% now 'local' %}",
+    "_extensions": ["jinja2_time.TimeExtension"],
+    "_copy_without_render": [
+        "doc/knitr_preamble.tex"
+    ]
+}
+
