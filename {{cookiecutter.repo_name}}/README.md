@@ -1,47 +1,10 @@
-# Cookiecutter DS/ML Project Template
+# {{cookiecutter.project_name}}
 
-_A logical, reasonably standardized, but flexible project structure for doing and sharing DS/ML work._
+{{cookiecutter.project_desc}}
 
+Started on {{cookiecutter.start_date}}.
 
-## Requirements to use the cookiecutter template
-
- - Python 2.7 or 3.5+
- - [Cookiecutter Python package](http://cookiecutter.readthedocs.org/en/latest/installation.html) >= 1.4.0: This can be installed with pip by or conda depending on how you manage your Python packages:
-
-``` bash
-pip install cookiecutter
-```
-
-or
-
-``` bash
-conda config --add channels conda-forge
-conda install cookiecutter
-```
-or 
-
-``` bash
-brew install cookiecutter
-```
-
-## Installing development requirements
-
-    pip install -r requirements.txt
-
-## To start a new project, run:
-
-    cookiecutter gh:pal0064/ml-project-template
-
-If this doesn't work try using SSH with the full path:
-
-```
-cookiecutter git+ssh://git@github.com/pal0064/ml-project-template
-```
-
-
-## The resulting directory structure
-
-The directory structure of your new project looks like this: 
+## Project Organization
 
 ```
 ├── LICENSE
@@ -73,7 +36,6 @@ The directory structure of your new project looks like this:
 - [drivendata/cookiecutter-data-science](https://github.com/drivendata/cookiecutter-data-science)
 
 
-License
--------
+## Quick start 
 
-This project is licensed under the terms of the [MIT License](/LICENSE)
+The project can be built typing `make`.
