@@ -32,9 +32,13 @@ Started on {{cookiecutter.start_date}}.
 |__ output             <- Temporary Output files
 ```
 
-## Acknowledgements
+## Acknowledgments
 - [drivendata/cookiecutter-data-science](https://github.com/drivendata/cookiecutter-data-science)
 
+
+## Requirements:
+- [pre-commit](https://pre-commit.com/)
+- [commit-lint](https://github.com/conventional-changelog/commitlint)
 
 ## Quick start 
 
