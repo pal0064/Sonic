@@ -38,7 +38,13 @@ Started on {{cookiecutter.start_date}}.
 
 ## Requirements:
 - [pre-commit](https://pre-commit.com/)
+    ```
+        pip install pre-commit
+    ```
 - [commit-lint](https://github.com/conventional-changelog/commitlint)
+    ```
+        npm install -g @commitlint/cli @commitlint/config-conventional
+    ```
 
 ## Quick start 
 

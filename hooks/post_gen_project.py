@@ -33,3 +33,5 @@ subprocess.call(['git', 'add', '.'])
 subprocess.call(['git', 'commit', '-m', 'Initialization using cookiecutter'])
 if remote != 'Git remote (if known)':
     subprocess.call(['git', 'push', '-u', 'origin', branch_name])
+
+subprocess.call(['pre-commit', 'install'])
