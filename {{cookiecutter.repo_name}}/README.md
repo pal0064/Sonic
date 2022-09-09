@@ -42,6 +42,7 @@ Started on {{cookiecutter.start_date}}.
 - Github CODEOWNERS to automatically add owners to Github PR
 - Github pull request remplates for standardizing description
 - Multiple programming language support in the directory structure
+- R Lang test cases support using Makefile and Github actions
 
 ## Requirements:
 - [pre-commit](https://pre-commit.com/)
@@ -53,6 +54,9 @@ Started on {{cookiecutter.start_date}}.
         npm install -g @commitlint/cli @commitlint/config-conventional
     ```
     for this Nodejs is required. Download and install from here [Nodejs](https://nodejs.org/en/download/)
+
+## Note:
+This template is tested with Mac OS. So, all the commands and programs should work smoothly on mac and linux. Windows user might face some issues in the installation. Our future goal is to make this template platform independent.
 
 ## Acknowledgments
 - [drivendata/cookiecutter-data-science](https://github.com/drivendata/cookiecutter-data-science)
