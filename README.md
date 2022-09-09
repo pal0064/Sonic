@@ -28,6 +28,18 @@ brew install cookiecutter
 
     pip install -r requirements.txt
 
+##  Other installations
+- Install R language
+- [pre-commit](https://pre-commit.com/)
+    ```
+        pip install pre-commit
+    ```
+- [commitlint](https://github.com/conventional-changelog/commitlint)
+    ```
+        npm install -g @commitlint/cli @commitlint/config-conventional
+    ```
+    for this Nodejs is required. Download and install from here [Nodejs](https://nodejs.org/en/download/)
+
 ## To start a new project, run:
 
     cookiecutter gh:pal0064/ml-project-template
@@ -69,11 +81,27 @@ The directory structure of your new project looks like this:
 |__ output             <- Temporary Output files
 ```
 
+## Extra Features
+- Commit Message checking via commitlint
+- [Linter support for R lang](https://github.com/r-lib/lintr)
+- [R Lang Code formatter using Styler](https://github.com/r-lib/styler)
+- [R lang general checks using pre-commit hooks](https://lorenzwalthert.github.io/precommit/articles/available-hooks.html)
+- [Local Testing via pre-commit](https://pre-commit.com/)
+- Github Integration 
+- CI testing via Github actions and pre-commit.ci
+- Github CODEOWNERS to automatically add owners to Github PR
+- Github pull request remplates for standardizing description
+- Multiple programming language support in the directory structure
+
 ## Acknowledgements
 - [drivendata/cookiecutter-data-science](https://github.com/drivendata/cookiecutter-data-science)
 
+
+## Note:
+This template is tested with Mac OS. So, all the commands and programs should work smoothly on mac and linux. Windows user might face some issues in the installation. Our future goal is to make this template platform independent.
 
 License
 -------
 
 This project is licensed under the terms of the [MIT License](/LICENSE)
+
