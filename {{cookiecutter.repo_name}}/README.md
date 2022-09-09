@@ -31,18 +31,29 @@ Started on {{cookiecutter.start_date}}.
 ├── src                <- Source code for use in this project.
 |__ output             <- Temporary Output files
 ```
-
-## Acknowledgments
-- [drivendata/cookiecutter-data-science](https://github.com/drivendata/cookiecutter-data-science)
-
+## Features
+- Commit Message checking via commitlint
+- [Linter support for R lang](https://github.com/r-lib/lintr)
+- [R Lang Code formatter using Styler](https://github.com/r-lib/styler)
+- [R lang general checks using pre-commit hooks](https://lorenzwalthert.github.io/precommit/articles/available-hooks.html)
+- [Local Testing via pre-commit](https://pre-commit.com/)
+- Github Integration 
+- CI testing via Github actions and pre-commit.ci
+- Github CODEOWNERS to automatically add owners to Github PR
+- Github pull request remplates for standardizing description
+- Multiple programming language support in the directory structure
 
 ## Requirements:
 - [pre-commit](https://pre-commit.com/)
     ```
         pip install pre-commit
     ```
-- [commit-lint](https://github.com/conventional-changelog/commitlint)
+- [commitlint](https://github.com/conventional-changelog/commitlint)
     ```
         npm install -g @commitlint/cli @commitlint/config-conventional
     ```
     for this Nodejs is required. Download and install from here [Nodejs](https://nodejs.org/en/download/)
+
+## Acknowledgments
+- [drivendata/cookiecutter-data-science](https://github.com/drivendata/cookiecutter-data-science)
+- [pal0064/ml-project-template](https://github.com/pal0064/ml-project-template)
