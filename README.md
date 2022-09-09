@@ -96,7 +96,6 @@ The directory structure of your new project looks like this:
 
 ## Acknowledgements
 - [drivendata/cookiecutter-data-science](https://github.com/drivendata/cookiecutter-data-science)
-- [pal0064/ml-project-template](https://github.com/pal0064/ml-project-template)
 
 ## Note:
 This template is tested with Mac OS. So, all the commands and programs should work smoothly on mac and linux. Windows user might face some issues in the installation. Our future goal is to make this template platform independent.
