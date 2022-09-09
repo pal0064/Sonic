@@ -45,7 +45,4 @@ Started on {{cookiecutter.start_date}}.
     ```
         npm install -g @commitlint/cli @commitlint/config-conventional
     ```
-
-## Quick start 
-
-The project can be built typing `make`.
+    for this Nodejs is required. Download and install from here [Nodejs](https://nodejs.org/en/download/)

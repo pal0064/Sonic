@@ -26,12 +26,9 @@ def write_dependencies():
         f.write("\n")
 
 write_dependencies()
+master_branch_name ='{{cookiecutter.git_remote_master_branch}}'
 remote = '{{cookiecutter.git_remote}}'
-branch_name = 'feat/initialized-using-cookiecutter'
-subprocess.call(['git', 'checkout', '-b', branch_name])
 subprocess.call(['git', 'add', '.'])
-subprocess.call(['git', 'commit', '-m', 'Initialization using cookiecutter'])
-if remote != 'Git remote (if known)':
-    subprocess.call(['git', 'push', '-u', 'origin', branch_name])
-
+subprocess.call(['git', 'commit', '-m', 'feat(core): initialization using cookiecutter'])
 subprocess.call(['pre-commit', 'install'])
+

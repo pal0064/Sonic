@@ -1,11 +1,11 @@
 {
     "author_name": "Your name (or your organization/company/team)",
     "project_name": "Data Project",
-    "repo_name": "{{ cookiecutter.project_name|title()|replace(' ','') }}",
+    "repo_name": "{{ cookiecutter.project_name|lower()|replace(' ','') }}",
     "project_desc": "Project description",
     "version": "0.0.1",
     "open_source_license": ["MIT", "BSD-3-Clause", "No license file"],
-    "git_remote": "Git remote (if known)",
+    "git_remote": "Github repository link",
     "git_remote_master_branch":["master","main"],
     "start_date": "{% now 'local' %}",
     "_extensions": ["jinja2_time.TimeExtension"],
