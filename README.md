@@ -92,10 +92,11 @@ The directory structure of your new project looks like this:
 - Github CODEOWNERS to automatically add owners to Github PR
 - Github pull request remplates for standardizing description
 - Multiple programming language support in the directory structure
+- R Lang test cases support using Makefile and Github actions
 
 ## Acknowledgements
 - [drivendata/cookiecutter-data-science](https://github.com/drivendata/cookiecutter-data-science)
-
+- [pal0064/ml-project-template](https://github.com/pal0064/ml-project-template)
 
 ## Note:
 This template is tested with Mac OS. So, all the commands and programs should work smoothly on mac and linux. Windows user might face some issues in the installation. Our future goal is to make this template platform independent.
@@ -104,4 +105,3 @@ License
 -------
 
 This project is licensed under the terms of the [MIT License](/LICENSE)
-
