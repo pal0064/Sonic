@@ -31,4 +31,4 @@ remote = '{{cookiecutter.git_remote}}'
 subprocess.call(['git', 'add', '.'])
 subprocess.call(['git', 'commit', '-m', 'feat(core): initialization using cookiecutter'])
 subprocess.call(['pre-commit', 'install'])
-
+subprocess.call(['pre-commit', 'install','--hook-type','commit-msg'])
