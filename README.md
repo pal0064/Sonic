@@ -81,6 +81,10 @@ The directory structure of your new project looks like this:
 |__ output             <- Temporary Output files
 ```
 
+## Demo
+
+[![Demo](docs/images/brief_talk.png)](https://www.youtube.com/watch?v=ILQb66cjV4g)
+
 ## Extra Features
 - Commit Message checking via commitlint
 - [Linter support for R lang](https://github.com/r-lib/lintr)
