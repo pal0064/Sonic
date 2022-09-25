@@ -2,9 +2,14 @@
 
 _Sonic is a framework that creates a standard DS/ML project structure having many popular automation features. Anyone who wants to work on DS/ML project can use Sonic. You can use Sonic in your projects, interview assignments, course homeworks etc._
 
+![GIF](docs/images/demo.gif)
+
+
 ## Demo
 
 [![Demo](docs/images/brief_talk.png)](https://www.youtube.com/watch?v=ILQb66cjV4g)
+
+Note: Sonic's earlier name was ml-project-template(As shown in video)
 
 
 ## Why should you use Sonic?
