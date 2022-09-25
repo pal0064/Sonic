@@ -60,4 +60,4 @@ This template is tested with Mac OS. So, all the commands and programs should wo
 
 ## Acknowledgments
 - [drivendata/cookiecutter-data-science](https://github.com/drivendata/cookiecutter-data-science)
-- [pal0064/ml-project-template](https://github.com/pal0064/ml-project-template)
+- [pal0064/Sonic](https://github.com/pal0064/Sonic)
