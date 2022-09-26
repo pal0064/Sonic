@@ -18,7 +18,7 @@ Note: Sonic's earlier name was ml-project-template(As shown in video)
     Starting a project is always time consuming, thinking about structuring your code, adding basic integrations. All of these steps take time, Sonic saves your precious time by automating these simple steps.
 
 - Better chances in getting job:
-    Programming assignments from good companies(FAANG) or academic institutions check the project strucure, code practices along with the fucntionality of the code. Sonic takes care of these small things for you so that you can foucs on the functionality of the code. Sonic's integrations in your project, makes your project unique from all other submissions. So eventually better chances in getting job.
+    Good companies(FAANG) or academic institutions check the project strucure, code practices along with the functionality of the code in the programming assignments. Sonic takes care of these small things for you so that you can foucs on the functionality of the code. Sonic's integrations in your project, makes your project unique from all other submissions. So eventually better chances in getting job.
 
 ## The resulting directory structure
 
